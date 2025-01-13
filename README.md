@@ -1,4 +1,4 @@
-# ArcGIS-Portfolio
+# ArcGIS Portfolio
 
 This portfolio includes examples of the work I've done for my Introduction to GIS and GPS for Scientists course at University of California, San Diego.
 
