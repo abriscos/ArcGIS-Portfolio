@@ -10,7 +10,7 @@ For our final project, my two group members and I worked to create an ArcGIS Sto
 
 One group member and I worked together to create a survey intended to be filled out on your phone when you wanted to share the location and information on a publicly accessible fruit tree. You can view the full survey [here](https://survey123.arcgis.com/share/1773b261fa874580b1c607a44dd8bbd0).
 
-<img src="/Assets/survey1.png" height="300"> <img src="/Assets/survey2.png" height="300"> <img src="/Assets/survey3.png" height="300"> 
+<img src="/Assets/survey1.png" height="275"> <img src="/Assets/survey2.png" height="275"> <img src="/Assets/survey3.png" height="275"> 
 
 ## Web Map
 
