@@ -2,6 +2,12 @@
 
 This portfolio includes examples of the work I've done with ArcGIS.
 
+## GIS with a Concentration in Environmental Analysis Certificate at SFSU
+
+The following is a collection of maps created as part of my coursework for my GIS with a Concentration in Environmental Analysis Certificate from San Francisco State University.
+
+<img src="/Assets/Farallon Island Plants Final.jpg" width="800"> <img src="/Assets/Africa City Growth Final.jpg" width="800"> <img src="/Assets/Meadow Restoration Study Sites.jpg" width="800"> <img src="/Assets/Oregon Map.jpg" width="800">
+
 ## Introduction to GIS and GPS for Scientists at UCSD
 
 For the final project of my Introduction to GIS and GPS for Scientists (SIO 110) course at University of California, San Diego., my two group members and I worked to create an ArcGIS StoryMap with an incorporated web map to share the locations of public fruit trees around UC San Diego.
@@ -23,8 +29,4 @@ As the basis for the StoryMap, I created an ArcGIS web map to automatically comp
 Our final product for this project was our StoryMap, which I largely wrote the text, gathered the images, and created the layout for based on input from my group members. In addition to incorporating our survey and web map, it describes the purpose of our project and provides resources for connecting with community gardening projects around UC San Diego. You can view the full StoryMap [here](https://storymaps.arcgis.com/stories/94a426de683d4fd2b64298627344ea98).
 
 <img src="/Assets/storymap1.png" width="800"> <img src="/Assets/storymap2.png" width="800"> <img src="/Assets/storymap3.png" width="800"> <img src="/Assets/storymap4.png" width="800">
-
-## GIS with a Concentration in Environmental Analysis Certificate at SFSU
-
-The following is a collection of maps created as part of my coursework for my GIS with a Concentration in Environmental Analysis Certificate from San Francisco State University.
 
