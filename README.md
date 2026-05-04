@@ -67,7 +67,7 @@ The final project for this course involved using ModelBuilder to create a map di
 
 Second, ModelBuilder was used to lay out the next steps of the model-making process in order. The three polygon feature classes were combined with Union, unnecessary fields were removed, and the weight fields were joined to the main table. A slide index field was created, filled with default values, and then calculated for features with no null values by adding together the three weight values.
 
-
+<img src="/Assets/Landslide Model Horizontal.svg" width="1500">
 
 ## Introduction to GIS and GPS for Scientists (UCSD)
 
