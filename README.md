@@ -1,6 +1,6 @@
-# ArcGIS Portfolio
+# GIS Portfolio
 
-This portfolio includes examples of the work I've done with ArcGIS. Currently, it primarily includes maps made as part of my coursework for my GIS with a Concentration in Environmental Analysis Certificate from San Francisco State University, as well as an example of a project from my Introduction to GIS and GPS for Scientists course from University of California, San Diego.
+This portfolio includes examples of the work I've done with GIS. Currently, it primarily includes maps made as part of my coursework for my GIS with a Concentration in Environmental Analysis Certificate from San Francisco State University, as well as an example of a project from my Introduction to GIS and GPS for Scientists course from University of California, San Diego.
 
 ## Cartographic Design for GIS (SFSU)
 
