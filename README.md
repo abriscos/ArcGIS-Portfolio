@@ -6,7 +6,7 @@ This portfolio includes examples of the work I've done with ArcGIS. Currently, i
 
 The following maps were created in ArcGIS Pro as part of a course on the principles of cartographic design. We discussed how to use map layout, map elements, data symbolization, color schemes, and figure/ground relationships to effectively communicate meaning to intended audiences.
 
-<img src="/Assets/Farallon Island Plants Final.jpg" width="800"> <img src="/Assets/Africa City Growth Final.jpg" width="800"> <img src="/Assets/Meadow Restoration Study Sites.jpg" width="800"> <img src="/Assets/Oregon Map.jpg" width="800">
+<img src="/Assets/Farallon Island Plants Final.jpg" width="800"> <img src="/Assets/Africa City Growth Final.jpg" width="500"> <img src="/Assets/Meadow Restoration Study Sites.jpg" width="800"> <img src="/Assets/Oregon Map.jpg" width="800">
 
 ## Spatial Analysis and Modeling (SFSU)
 
@@ -71,7 +71,7 @@ Second, ModelBuilder was used to lay out the next steps of the model-making proc
 
 Finally, the polygons of the output feature class were dissolved and symbolized based on their slide index values. For the sake of readability, some of the slide index values that had very few polygons representing them were grouped together.
 
-<img src="/Assets/Landslide Risk Map.jpg" width="800">
+<img src="/Assets/Landslide Risk Map.jpg" width="500">
 
 ## Introduction to GIS and GPS for Scientists (UCSD)
 
