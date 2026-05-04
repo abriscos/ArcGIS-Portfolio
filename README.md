@@ -12,6 +12,12 @@ The following maps were created in ArcGIS Pro as part of a course on the princip
 
 This course was an overview of the concepts and functions used in vector-based spatial analysis within ArcGIS Pro.
 
+### Fault Line Proximity Analysis
+
+For this project, the spatial join, buffer, and intersect tools were used to display school and urban areas within certain distances from fault lines in San Mateo County. 18 fault lines were found within a quarter mile of a school, and 19 of the 77 schools were within a quarter mile of a fault (25% of schools). Of the 41361 acres of urban land in the study area, 30955 acres were within one mile of a fault line (75% of land).
+
+<img src="/Assets/Fault Line Proximity Analysis.jpg" width="500">
+
 ### Modeling Landslide Risk
 
 The final project for this course involved using ModelBuilder to create a map displaying landslide risk. We used an example data set that consisted of geology, land cover, and slope (each with their own polygon feature class) for a portion of San Mateo County, California. First, the different types of geology were each assigned a weight based on their stability, the types of land cover were assigned weights based on their vegetation density, and the different slopes were assigned weights based on their steepness. All of these weights were combined to create an index for landslide risk, with higher values meaning higher risk.
