@@ -67,6 +67,12 @@ The final project for this course involved using ModelBuilder to create a map di
 
 Second, ModelBuilder was used to lay out the next steps of the model-making process in order. The three polygon feature classes were combined with Union, unnecessary fields were removed, and the weight fields were joined to the main table. A slide index field was created, filled with default values, and then calculated for features with no null values by adding together the three weight values.
 
+<img src="/Assets/Landslide Model.svg" width="1000">
+
+Finally, the polygons of the output feature class were dissolved and symbolized based on their slide index values. For the sake of readability, some of the slide index values that had very few polygons representing them were grouped together.
+
+<img src="/Assets/Landslide Risk Map.jpg" width="800">
+
 ## Introduction to GIS and GPS for Scientists (UCSD)
 
 For the final project of this course, my two group members and I worked to create an ArcGIS StoryMap with an incorporated web map to share the locations of public fruit trees around UC San Diego.
