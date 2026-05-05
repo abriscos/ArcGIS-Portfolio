@@ -79,6 +79,16 @@ Finally, the polygons of the output feature class were dissolved and symbolized 
 
 <img src="/Assets/Landslide Risk Map.jpg" width="500">
 
+## Ecological Applications of GIS (SFSU)
+
+This course focused on applying methods for spatial data management, analysis, and display in ArcGIS Pro to address ecology-related projects.
+
+### Mapping Precipitation
+
+This map symbolizes the precipitation in each MLRA over a time period of 6 months. This was achieved by taking a raster of precipitation data across the continental United States and using the Zonal Statistics as Table tool to calculate the sum of the precipitation within each MLRA.
+
+<img src="/Assets/MLRA Precipitation Map.jpg" width="800">
+
 ## Introduction to GIS and GPS for Scientists (UCSD)
 
 For the final project of this course, my two group members and I worked to create an ArcGIS StoryMap with an incorporated web map to share the locations of public fruit trees around UC San Diego.
