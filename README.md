@@ -73,7 +73,7 @@ The final project for this course involved using ModelBuilder to create a map di
 
 Second, ModelBuilder was used to lay out the next steps of the model-making process in order. The three polygon feature classes were combined with Union, unnecessary fields were removed, and the weight fields were joined to the main table. A slide index field was created, filled with default values, and then calculated for features with no null values by adding together the three weight values.
 
-<img src="/Assets/Landslide Model.svg" width="1000">
+<img src="/Assets/Landslide Model.svg" width="500">
 
 Finally, the polygons of the output feature class were dissolved and symbolized based on their slide index values. For the sake of readability, some of the slide index values that had very few polygons representing them were grouped together.
 
@@ -88,6 +88,53 @@ This course focused on applying methods for spatial data management, analysis, a
 This map symbolizes the precipitation in each MLRA over a time period of 6 months. This was achieved by taking a raster of precipitation data across the continental United States and using the Zonal Statistics as Table tool to calculate the sum of the precipitation within each MLRA.
 
 <img src="/Assets/MLRA Precipitation Map.jpg" width="800">
+
+### Corridor Analysis
+
+The goal of this project was to map a potential migration corridor between giant kangaroo rat populations, for the purpose of informing land management and conservation decisions. The workflow was visualized with ModelBuilder.
+
+<img src="/Assets/GKR Corridor Model.svg" width="1000">
+
+Starting with rasters for land cover, elevation, and slope (derived from elevation), each raster was Reclassified based on the habitat preferences of the target species. The values were based on descriptions from the literature. Higher values represent less suitable conditions, and therefore, a higher cost of moving through a given raster cell.
+
+| Land Cover  | Value  |
+| ----------- | ------ |
+| Barren Land  | 4  |
+| Cultivated Crops  | 7  |
+| Deciduous Forest  | 7  |
+| Developed, High Intensity  | 9  |
+| Developed, Low Intensity  | 7  |
+| Developed, Medium Intensity  | 8  |
+| Developed, Open Space  | 6  |
+| Emergent Herbaceous Wetlands  | 8  |
+| Evergreen Forest  | 7  |
+| Grassland / Herbaceous  | 1  |
+| Mixed Forest  | 7  |
+| Open Water  | 9  |
+| Pasture / Hay  | 7  |
+| Shrub / Scrub  | 2  |
+| Woody Wetlands  | 8  |
+
+| Elevation Start  | Elevation End  | Value  |
+| ---------------- | -------------- | -----  |
+| 0 | 200  | 2  |
+| 200 | 400  | 1  |
+| 400 | 600  | 2  |
+| 600 | 900  | 3  |
+| 900 | 9000  | 9  |
+
+| Percent Slope Start  | Percent Slope End  | Value  |
+| -------------------- | ------------------ | -----  |
+| 0  | 11  | 1  |
+| 11  | 14  | 2  |
+| 14  | 18  | 3  |
+| 18  | 22  | 4  |
+| 22  | 30  | 7  |
+| 30  | 1000  | 9  |
+
+All of these cost rasters were combined with a Weighted Sum that prioritized land cover (weight 0.1), then slope (weight 0.075), and finally elevation (weight 0.05). Two Cost Distance rasters were created: the first using the northernmost giant kangaroo rat site in the study area as the source, and the second using the southernmost site. These rasters were then summed together for the final Cost Distance raster. This raster was Reclassified to highlight the primary corridor between the northernmost and southernmost sites, as well as a secondary corridor that enclosed every site surveyed. After converting this raster to a polygon, it was used to create the following map.
+
+<img src="/Assets/GKR Migration Corridor Map.jpg" width="500">
 
 ## Introduction to GIS and GPS for Scientists (UCSD)
 
