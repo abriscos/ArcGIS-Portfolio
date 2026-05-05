@@ -85,9 +85,9 @@ This course focused on applying methods for spatial data management, analysis, a
 
 ### Mapping Precipitation
 
-This map symbolizes the precipitation in each MLRA over a time period of 6 months. This was achieved by taking a raster of precipitation data across the continental United States and using the Zonal Statistics as Table tool to calculate the sum of the precipitation within each MLRA.
+This map symbolizes the average precipitation across each MLRA over a time period of 6 months. This was achieved by taking a 4km resolution raster of precipitation data across the continental United States, and using the Zonal Statistics as Table tool to calculate the mean of the precipitation across all raster cells within each MLRA.
 
-<img src="/Assets/MLRA Precipitation Map.jpg" width="800">
+<img src="/Assets/Average Precipitation Map.jpg" width="800">
 
 ### Corridor Analysis
 
